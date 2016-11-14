@@ -17,3 +17,9 @@ select id from stu
 union
 select id from sco
 <li>从多个表中获取数据（内、左、右 关联）</li>
+内连接：不符合条件的，就不在结果集里
+select * from stu as s1 inner join  sco as s2 on s1.id!= s2.id
+左连接：左边的全显示，右边的没有就为null
+select * from stu as s1 left join  sco as s2 on s1.id= s2.id
+右连接：右边的全显示，左边的没有就为null
+select * from stu as s1 right join  sco as s2 on s1.id= s2.id
