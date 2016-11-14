@@ -28,7 +28,10 @@ select * from stu as s1 right join  sco as s2 on s1.id= s2.id
 <li>全连接:左右两边都显示，没有的补null</li>
 select * from stu as s1 full join  sco as s2 on s1.id= s2.id
 <ul>
-<p>按指定条件删除表的内容</p>
+<li><p>按指定条件删除表的内容</p></li>
+delete from stu where id=2;
+<li>按指定条件更新表</li>
+update stu set id=1211 where id=1
 
 
 
