@@ -1,0 +1,2 @@
+# SqlLearning
+just learning sql
