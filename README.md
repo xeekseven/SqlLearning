@@ -25,7 +25,10 @@ select * from stu as s1 inner join  sco as s2 on s1.id!= s2.id
 select * from stu as s1 left join  sco as s2 on s1.id= s2.id
 <li>右连接：右边的全显示，左边的没有就为null</li>
 select * from stu as s1 right join  sco as s2 on s1.id= s2.id
+<li>全连接:左右两边都显示，没有的补null</li>
+select * from stu as s1 full join  sco as s2 on s1.id= s2.id
 <ul>
+<artic>ssaaa</artic>
 
 
 
